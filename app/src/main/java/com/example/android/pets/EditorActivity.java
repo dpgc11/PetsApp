@@ -128,7 +128,8 @@ public class EditorActivity extends AppCompatActivity {
 
         String name = mNameEditText.getText().toString().trim();
         String breed = mBreedEditText.getText().toString().trim();
-        int weight = Integer.parseInt(mWeightEditText.getText().toString().trim());
+        String weightString = mWeightEditText.getText().toString().trim();
+        int weight = Integer.parseInt(weightString);
 
         ContentValues values = new ContentValues();
         values.put(PetEntry.COLUMN_PET_NAME, name);
