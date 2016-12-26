@@ -191,6 +191,7 @@ public class PetProvider extends ContentProvider {
          */
 
     private Uri insertPet(Uri uri, ContentValues values) {
+
         // Check that the name is not null
         String name = values.getAsString(PetEntry.COLUMN_PET_NAME);
         if (name == null) {
