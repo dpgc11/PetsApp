@@ -1,2 +1,2 @@
 # PetsApp
-Stores information about pets at a shelter inside a database using sqlite(Udacity)
+Stores information about pets at a shelter inside a database using sqlite(Udacity course)
